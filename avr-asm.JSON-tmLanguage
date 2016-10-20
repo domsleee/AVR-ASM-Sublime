@@ -7,23 +7,23 @@
         {
             "match": "(?i)\\br(0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31)\\b",
             "name": "storage.type.asm",
-            "comment": "General perpose register set"
+            "comment": "General purpose register set"
         },
 
         {
             "match": "(?i)\\b(xl|xh|yl|yh|zl|zh)\\b",
             "name": "storage.type.asm",
-            "comment": "General perpose register set (16-bit pointers)"
+            "comment": "General purpose register set (16-bit pointers)"
         },
 
         {
-            "match": "(?i)\\b(add|adc|adiw|sub|subi|sbc|sbci|sbiw|fmul|fmuls|fmulsu|and|andi|or|ori|eor|com|neg|sbr|cbr|inc|dec|tst|clr|ser)\\b",
+            "match": "(?i)\\b(add|adc|adiw|sub|subi|sbc|sbci|sbiw|fmul|fmuls|fmulsu|mul|and|andi|or|ori|eor|com|neg|sbr|cbr|inc|dec|tst|clr|ser)\\b",
             "name": "keyword.operator.asm",
             "comment": "Arithmetic and logic instruction mnemonics"
         },
 
         {
-            "match": "(?i)\\b(eijmp|rjmp|ijmp|eicall|icall|rcall|ret|reti|cpse|cp|cpc|cpi|sbrc|sbrs|sbic|sbis|brbs|brbc|breq|brne|brcs|brcc|brsh|brlo|brmi|brpl|brge|brlt|brhs|brhc|brts|brtc|brvs|brvc|brie|brid)\\b",
+            "match": "(?i)\\b(eijmp|rjmp|ijmp|jmp|eicall|icall|rcall|ret|reti|cpse|cp|cpc|cpi|sbrc|sbrs|sbic|sbis|brbs|brbc|breq|brne|brcs|brcc|brsh|brlo|brmi|brpl|brge|brlt|brhs|brhc|brts|brtc|brvs|brvc|brie|brid)\\b",
             "name": "keyword.operator.asm",
             "comment": "Branch instruction mnemonics"
         },
@@ -96,7 +96,7 @@
         },
 
         {
-            "match": "\\b(0|[1-9]\\d+)\\b",
+            "match": "\\b(0|[1-9]\\d*)\\b",
             "name": "constant.numeric.asm",
             "comment": "Dec number constant"
         }
