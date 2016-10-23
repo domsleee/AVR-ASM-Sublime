@@ -23,7 +23,7 @@
         },
 
         {
-            "match": "(?i)\\b(eijmp|rjmp|ijmp|jmp|eicall|icall|rcall|ret|reti|cpse|cp|cpc|cpi|sbrc|sbrs|sbic|sbis|brbs|brbc|breq|brne|brcs|brcc|brsh|brlo|brmi|brpl|brge|brlt|brhs|brhc|brts|brtc|brvs|brvc|brie|brid)\\b",
+            "match": "(?i)\\b(eijmp|rjmp|ijmp|jmp|eicall|icall|rcall|call|ret|reti|cpse|cp|cpc|cpi|sbrc|sbrs|sbic|sbis|brbs|brbc|breq|brne|brcs|brcc|brsh|brlo|brmi|brpl|brge|brlt|brhs|brhc|brts|brtc|brvs|brvc|brie|brid)\\b",
             "name": "keyword.operator.asm",
             "comment": "Branch instruction mnemonics"
         },
